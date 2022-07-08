@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header{
+    width:100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url("./imgs/01.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding: 20px;
+    color:#fff;  
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 20px;
+    cursor: pointer;    
+    transition: 0.3s;
+}
+
+li.active{
+    color:rgb(233, 39, 72);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-links li:hover{
+    color:rgb(233, 39, 72);
+}
+
+.header-content{
+    margin-bottom: 20px;
+    color:aliceblue;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 3vmin;
+    word-spacing: 10px;
+}
+
+.line{
+    width:250px;
+    height: 3px;
+    background: rgb(233, 39, 72);
+    margin:10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 6vmin;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.cta{
+    background: rgb(233, 39, 72);
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: White;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta:hover{
+    background:rgb(131, 31, 48);
+    color: whitesmoke;
+}
+
+.menu-btn{
+    position: absolute;
+    top:30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Events */
+section{
+    width:80%;
+    margin:80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 3vmin;
+    color:rgb(7, 57, 74);
+
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.row .col img{
+    width: 80%; 
+}
+
+section.events .row{
+    margin-top:50px;
+}
+
+h4{
+    font-size: 2vmin;
+    margin:20px auto;
+    color: rgb(7, 57, 74);
+    text-align: center;
+}
+
+p{
+    padding: 0px 40px;
+    color: #7c7c7c;
+    
+}
+
+section.events .cta{
+    margin-top: 10px;
+}
+
+
+/* Explore */
+
+section.explore{
+    width:100%;
+    height:80vh;
+    background-image: url("./imgs/08.jpg");  
+    background-size: cover;
+    background-position: bottom ; 
+    background-repeat: no-repeat;   
+    display: flex; 
+    align-items: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.explore-content{
+    width:100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+    color:white;
+    font-size: 5vmin;
+    
+}
+
+.explore-content p{
+    color:aliceblue;
+    margin-bottom:40px;
+}
+
+.explore-content .line{
+    margin-bottom:20px;
+}
+
+/* Tours and destinations */
+
+.content-col{
+    width:40%;
+    padding: 40px;
+}
+
+.img-col{
+    width:60%;
+}
+.tours .img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%; 
+    justify-content: center;
+}
+
+.tours .img-gallery img{
+    width: 350px;     
+    margin:10px;                                                   
+}
+
+.content-col h1{
+    font-size: 3vmin;
+    color:rgb(7, 57, 74);
+}
+
+
+.content-col p{
+    margin:30px auto;
+    padding: 0;
+}
+
+section.events .cta{
+    margin-bottom:30px;
+}
+
+
+/* footer */
+.footer{
+    width:100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin:0;
+    background:rgb(7, 57, 74);
+    text-align: center;
+}
+
+.footer{
+    color: antiquewhite;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+/* mobile device */
+@media only screen and (max-width:850px)
+{
+    .menu-btn{
+        display: block;
+    }
+
+    .navbar{
+        padding: 0;
+    } 
+    
+    .logo{
+        position: absolute;
+        top:30px;
+        left:30px;
+    }
+    
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(5, 37, 48);
+        margin-top: -900px;
+        transition: all 0.3s;
+    }
+
+    .mobile-menu{
+        margin-top:0px;
+        border-bottom-right-radius: 30%;
+    }
+    
+    .nav-links li{
+        margin:30px auto;
+    }
+
+    /* events */
+    .row{
+        flex-direction: column;
+    }
+    
+    .row .col{
+        margin:20px auto;
+    }
+    .col img{
+        max-width: 90%;
+    }
+
+    /* explore */
+
+    .explore-content{
+        width: 100%;
+    }
+   
+    .tours .col{
+        width: 100%;
+    }
+
+    .img-gallery{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-gallery img{
+        width: 90%;
+    }
+
+    /* footer */
+    .footer{
+        padding: 10px;
+    }
+
+}

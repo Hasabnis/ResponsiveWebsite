@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        <!-- navlinks -->
+        <div class = "container">
+        <nav class = "navbar">
+            <h1 class = "logo">Adventure</h1>
+            <ul class = "nav-links">
+            <li class ="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Contact</li>
+        </ul>
+        <span class = "menu-btn"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+        
+        <header>
+            <div class= "header-content">
+                <h2>Explore the colorful World !</h2>
+                <div class = "line"></div>
+                <h1>Wonderful Gift</h1>
+                <a href = "#" class = "cta">Learn More</a>
+            </div>
+        </header>
+        </div> 
+
+        <!-- Section Events -->
+        <section class = "events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./imgs/06.jpg" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita.</p>
+                    <a href="#" class = "cta">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="./imgs/10.jpg" alt="">
+                    <h4>Walking Holiday</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita.</p>
+                    <a href="#" class = "cta">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class = "explore">
+            <div class="explore-content">
+            <h1>Explore the World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellendus voluptas, porro totam ipsam aspernatur rem commodi voluptates. Quaerat, veritatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur architecto libero placeat neque, ipsum eligendi autem incidunt vel! Quasi, amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, officiis nobis nisi nostrum suscipit hic earum culpa deleniti aliquam adipisci quas aperiam laboriosam? Rem, neque aperiam? Hic nulla repellendus odit.</p>
+            <a href="#" class="cta">Learn More</a>
+             </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>Upcoming Tours and destinations</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus mollitia accusantium porro. Quaerat excepturi ullam odio eaque, ipsam et totam deleniti debitis minus ipsum assumenda inventore repellat! Blanditiis, voluptatibus mollitia.</p>
+                    <a href="#" class = "cta">Learn More</a>
+                </div>
+                <div class="col img-col">
+                    <div class="img-gallery">
+                        <img src="./imgs/01.jpg" alt="">
+                        <img src="./imgs/06.jpg" alt="">
+                        <img src="./imgs/10.jpg" alt="">
+                        <img src="./imgs/01.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo aperiam quaerat deleniti doloribus ex impedit. Iusto harum necessitatibus commodi!</p>
+            <p>Copyright 2022</p>
+        </section>
+    
+    
+    
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        });
+    </script>
+    </body>
+</html>
